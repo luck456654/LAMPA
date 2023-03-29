@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/**
+ * Accordion v3.3.4
+ * Lightweight and accessible accordion module created in pure Javascript
+ * https://github.com/michu2k/Accordion
+ *
+ * Copyright (c) Michał Strumpf
+ * Published under MIT License
+ */
+
+.ac{margin-top:8px;border:1px solid #eee;background-color:#fff;box-sizing:border-box}.ac .ac-header{margin:0;padding:0}.ac .ac-trigger{color:#111;text-align:left;width:100%;padding:8px 32px 8px 8px;display:block;cursor:pointer;background-color:transparent;transition:color .25s ease;position:relative;text-decoration:none;margin:0;border:0}.ac .ac-trigger::after{content:"+";text-align:center;width:15px;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);position:absolute;right:10px;top:50%}.ac .ac-trigger:focus{color:#8a8a8a}.ac .ac-panel{overflow:hidden;transition-property:height,visibility;transition-timing-function:ease}.ac .ac-panel .ac-text{font:15px/24px Arial,sans-serif;color:#111;padding:8px;margin:0}.ac.js-enabled .ac-panel{visibility:hidden}.ac.is-active .ac-panel{visibility:visible}.ac.is-active>.ac-header .ac-trigger::after{content:"x"}
+
+
+.ac .ac-trigger {
+    margin-left: 39.7vw;
+    width: 57vw;
+    color: #111111;
+    font-size: 1.389vw;
+    font-family: 'GilroyRegular';
+    padding-top: 1.8vw;
+    padding-bottom: 1vw;
+    }
+.ac .ac-header {
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 0vw;
+    padding-top: 1vw;
+}
+.ac .ac-header:last-child{
+  border-bottom: none;
+}
+.ac .ac-trigger::after {
+    margin-right: 4.4vw;
+    font-size: 5.4vw;
+    font-family: 'GilroyLight';
+    color: gray;
+}
+.ac-text {
+        width: 50vw;
+        margin-left: 37vw!important;
+        margin-top: 2vw!important;
+        font-family: 'GilroyLight';
+        font-size: 1.250vw;
+}
+.accordion-container{
+    padding-bottom: 21.5vw;
+}
+.ac {
+    border: none;
+}
+.brdbtmn{
+    border-bottom: none!important ;
+}
+.ac.is-active>.ac-header .ac-trigger::after {
+    content: "x";
+    font-size: 2.7vw;
+    margin-right: 3.5vw;
+}
+.ac .ac-panel .ac-text {
+    font-family: 'GilroyLight';
+    color: #111;
+    padding: 8px;
+    margin: 0;
+    margin-left: 40vw!important;
+    font-size: 1.0vw;
+}
