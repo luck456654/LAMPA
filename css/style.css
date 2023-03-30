@@ -333,6 +333,7 @@
     border-bottom: 1px solid gray;
     font-size: 1.389vw;
     margin-bottom: 1.17vw;
+    outline: none;
     
   }
   .Contacts__input::placeholder{
@@ -413,4 +414,103 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 7vw;
+}
+.modal{
+  width: 100vw;
+  height: 700vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 1;
+  display: none;
+  }
+.modal__window{
+  width: 62.5vw;
+  height: 52.84722vw;
+  background-color: white;
+  color: #111111;
+  margin: 0 auto;
+  margin-top: 12vw;
+  display: flex;
+  flex-direction: column;
+}
+.modal__title{
+  font-family: 'GilroyMedium';
+  font-size: 6vw;
+  line-height: 6.94444vw;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 8vw;
+  padding-top: 0vw;
+}
+.modal__form{
+  width: 49.30556vw;
+  height: 21.87500vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vw;
+}
+.modal__input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 1.38889vw;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+  width: 47.15vw;
+}
+.tell{
+  padding-bottom: 1.2vw;
+}
+.email{
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+}
+.modal__submit{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.modal__btn{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: #111111;
+    width: 20vw;
+    height: 3vw;
+    margin-left: -1.55vw;
+    margin-top: 4vw;
+    border: 1px solid rgba(17, 17, 17, 0.5);
+    font-size: 1.15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.modal__text{
+  margin-left: -2vw;
+  margin-top: 4.3vw;
+  font-size: 1.2vw;
+  width: 27vw;
+}
+.modal__close-icon{
+  margin-top: 1vw;
+  margin-left: 59vw;
+  width: 2.083vw;
+  height: 2.083vw;
+}
+.hvr:hover{
+  color:#FF72F1;
+  transition: color 0.03s linear;
+  cursor: pointer;
+}
+.buthvr:hover{
+  background-color: #292929;
+  transition: color 0.03s linear;
+  cursor: pointer;
+}
+.buthvrwhite:hover{
+  background-color: #292929;
+  transition: color 0.03s linear;
+  cursor: pointer;
+  color:white;
 }
