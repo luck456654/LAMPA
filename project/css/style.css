@@ -60,9 +60,8 @@
     }
   .header{
     max-width: 94.44444vw;
-    padding: 0 2.77778vw;
+    padding: 0 2.77778vw 0 2.77778vw;
     margin-bottom: 10vw;
-    padding-top: 1vw;
     }
   .header__container,.header__menu{
     display: flex;
@@ -121,7 +120,6 @@
     line-height: 100%;
     max-width: 66vw;
     padding: 0 2.47778vw 0 9.47778vw;
-	margin-top: 10.5vw;
   }
   .AboutUs,.Services,.Advantages,.Create,.ReadySite,.FAQ{
     background-color: white;
@@ -315,7 +313,6 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 3.5vw;
-	margin-top:-0.5vw;
   }
   .Contacts__left{
     width: 106%;
@@ -580,8 +577,7 @@
 .header__burger{
   display: none;
 }
-
-
+/* запрещаем трогать этот бургер, пока его нет. Дисплэй нан лишний */
 .burgerContainer{
   opacity: 0;
   user-select: none;
@@ -589,24 +585,29 @@
 }
 
 
-
+/* активный класс бургера */
 .burger-active{
   display: flex;
   opacity: 1;
   user-select: auto;
   pointer-events:all;
 }
-
+/* вынес немножко для себя сам бургер */
 .burgerContainer{
   width: 100vw;
   height: 1715vw;
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   z-index: 2;
   top: 11vw;
   overflow: hidden;
-  transition: all 1s linear;
+  transition: all 300s linear;
 }
-
+/*
+  проблема заключалась в vw, которые неправильно принимались браузером.
+  я чуть изменил и поправил на проценты, благодаря чему - 
+  теперь мы имеем работающую анимацию  
+*/
 .burgerContainer__form{
   width: 100%;
   height: 77.333vw;
