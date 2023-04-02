@@ -419,6 +419,7 @@
     margin-top: 21vw;
     display: flex;
     flex-direction: column;
+    position: fixed;
     
 }
 .modal__close-icon {
@@ -426,6 +427,7 @@
     margin-left: 88.5vw;
     width: 9.083vw;
     height: 6.083vw;
+    
 }
 .modal__title {
     font-family: 'GilroyMedium';
@@ -505,5 +507,7 @@
     height: 14vw;
     margin-left: 5vw;
   } 
-  
+  .mbtn{
+    margin-left: -2vw;
+  } 
 }

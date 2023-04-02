@@ -599,12 +599,11 @@
 
 .burgerContainer{
   width: 100vw;
-  height: 1715vw;
   position: absolute;
-  z-index: 2;
+  z-index: 0;
   top: 11vw;
   overflow: hidden;
-  transition: all 1s linear;
+  transition: all 0.03s linear;
 }
 
 .burgerContainer__form{
@@ -612,7 +611,7 @@
   height: 77.333vw;
   background-color: white;
   transform: translate(100%, 0);
-  transition: transform .3s ease;
+  transition: transform .09s ease;
 }
 
 .burger-active .burgerContainer__form{
