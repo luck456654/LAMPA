@@ -510,4 +510,8 @@
   .mbtn{
     margin-left: -2vw;
   } 
+  .ReadySite{
+	width:100vw;
+	overflow:hidden;
+  }
 }
