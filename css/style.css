@@ -617,3 +617,7 @@
 .burger-active .burgerContainer__form{
  transform: translate(-0%, 0)
 }
+.FAQ, .Contacts {
+	max-width:100vw;
+	overflow:hidden;
+}
