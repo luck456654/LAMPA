@@ -138,6 +138,7 @@
 .Advantages__blocks{
     display: flex;
     flex-direction: column;
+	height: 93vh;
 }
 .Advantages__block{
     display: flex;
@@ -194,7 +195,7 @@
     padding-bottom: 5vw;
 }
 .Create__title {
-    margin-top: 44.3vw;
+    margin-top: -18.7vw;
     margin-bottom: 12vw;
     margin-left: 2vw;
     font-size: 12.2vw;
@@ -411,7 +412,7 @@
     display: none;
 }
 .modal__window {
-    width: 99.9vw;
+    width: 100vw;
     height: 149.84722vw;
     background-color: white;
     color: #111111;
@@ -510,8 +511,8 @@
   .mbtn{
     margin-left: -2vw;
   } 
-  .ReadySite{
-	width:100vw;
+  .AboutUs,.ReadySite,.Services,.Advantages,.FAQ, .Contacts{
+	width:94.55vw;
 	overflow:hidden;
   }
 }
