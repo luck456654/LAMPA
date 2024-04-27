@@ -6,3 +6,4 @@
 git clone https://github.com/luck456654/LAMPA.git </li>
 <li>зайдите в получившуюся папку и запустите файл index.html</li>
 </ol>
+Демо-презентация https://luck456654.github.io/LAMPA/
