@@ -19,7 +19,7 @@
     .header__menu-btnmain {
         margin-left: 4.7vw;
         margin-top: 97vw;
-        width: 91vw;
+        width: 86vw;
         height: 13vw;
         font-size: 4vw;
     }
@@ -511,8 +511,15 @@
   .mbtn{
     margin-left: -3vw;
   } 
+  button{
+   max-width: 88vw;
+  }
   .AboutUs,.ReadySite,.Services,.Advantages,.FAQ, .Contacts{
 	width:94.55vw;
 	overflow:hidden;
+  }
+  body{
+    width: 100vw;
+    overflow-x: hidden;
   }
 }
